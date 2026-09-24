@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "camera_low",
+  "version": "${version}",
+  "name": "Camera Low",
+  "description": "Client-side adjustable first-person camera height and matching camera ray origin.",
+  "authors": ["Franco"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.franco.cameralow.CameraLowInitializer"] },
+  "mixins": ["camera_low.mixins.json"],
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "~1.21.11", "java": ">=21" }
+}
